@@ -12,7 +12,7 @@ public class StringMethods {
 
     public static void main(String[] args) {
         //charAt() => returns  a character
-        String name = " Hello to ";
+        String name = " Hello hi ";
         String lname = " HelloTwo ";
         char results = name.charAt(0);
         System.out.println(results);
@@ -27,6 +27,8 @@ public class StringMethods {
          //contains()
          String email = "jet@gmail.com";
          System.out.println(email.contains("@"));
+         
+         //Just a comment
          
          //EndsWith => returns boolean
          System.out.println(email.endsWith(".com"));
